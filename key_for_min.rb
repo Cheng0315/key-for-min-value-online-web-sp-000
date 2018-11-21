@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   smallest_value_key = ""
 
-  if name_hash == []
+  if name_hash == {}
     return nil
   end
 
